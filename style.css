@@ -159,3 +159,11 @@ footer {
   text-align: center;
   padding: 20px;
 }
+.video iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 393px; /* Proporção 16:9 */
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
